@@ -4,8 +4,10 @@ Hello coders, this is a poject of electric vehical dashboard design with several
 
 ## Description 
   I made this dashboard.py as a PyQt QWidget type, so you can embed this with your existing QMainWindow application by importing it or you can also use this as a stand-alone application for other purposes. At this point you have a question of how to do that? that's why I also provide a demo1.py and demo2.py file. 
-  The demo1.py file is to demonstrate of how you can use the dsahboard.py as a stand-alone application and how to connect the vehical state to the dashboard.
-  The demo2.py file is to demonstrate of how you can use the dashboard.py as a sub QWidget with your PyQt application and how to connect the vehical state to the dashboard.
+### The demo1.py file 
+  It is to demonstrate of how you can use the dsahboard.py as a stand-alone application and how to connect the vehical state to the dashboard.
+### The demo2.py file 
+  It is to demonstrate of how you can use the dashboard.py as a sub QWidget with your PyQt application and how to connect the vehical state to the dashboard.
 
 ## Features 
 #### Basic features contains
