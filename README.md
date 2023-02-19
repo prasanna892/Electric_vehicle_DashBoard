@@ -31,6 +31,14 @@ Hello coders, this is a poject of electric vehical dashboard design with several
     3) dashboard popup animation.
     4) you can also embed this dashboard with your own application created using PyQt by using 'DashBoard' class.
     
+## Provided functions with discription
+
+### DashBoard() class functions
+  1) show_dashboard()   -   To show dashboard in parent window
+  
+### TriggerAction() class functions
+  1) launch_dashboard()   -   
+    
 ## Output
 
 https://user-images.githubusercontent.com/78413761/219974154-664373d3-62d0-4a67-8669-e143cdd564b1.mp4
