@@ -10,7 +10,7 @@ Hello coders, this is a poject of electric vehical dashboard design with several
   It is to demonstrate of how you can use the dashboard.py as a sub QWidget with your PyQt application and how to connect the vehical state to the dashboard.
 
 ## Features 
-#### Basic features contains
+### Basic features contains
     1) This module provide a electric vehical dashboard dimension of 16:9 aspect ratio (default size 1280x720).
     2) You can able resize respect to 16:9 aspect ratio.
     3) Header with date-time display and break light display.
@@ -24,7 +24,7 @@ Hello coders, this is a poject of electric vehical dashboard design with several
     11) Left and right turn indicator.
   Note:
     You can control the above states by using, several function provided in 'TriggerAction' class.
-#### Some cool features:
+### Some cool features:
     1) Start page with start button and creator info button.
     2) Loading screen (launch after start button pressed).
     3) You can skip any of the above pages or both page.
@@ -33,11 +33,33 @@ Hello coders, this is a poject of electric vehical dashboard design with several
     
 ## Provided functions with discription
 
-### DashBoard() class functions
-  1) show_dashboard()   -   To show dashboard in parent window
+### DashBoard() 
+  This is a pyqt widget class to embed the dashboard to other pyqt widgets or applications.
+  #### class functions
+  1) show_dashboard(hide_creator_button: bool = False, skip_start_screen: bool = False, skip_loading_screen: bool = False) - To show dashboard in parent window
   
-### TriggerAction() class functions
-  1) launch_dashboard()   -   
+### TriggerAction() 
+  This class contain all functionality settings of dashboard.
+#### class functions
+  1) launch_dashboard() - Open dashboard as seperate window
+  2) set_dashboard_size(width: int, height: int) - To set dashboard
+  3) hide_creator_button(hide: bool) - To hide creator info button
+  4) skip_start_screen(skip: bool) - To skip start screen and directly go to loding screen
+  5) skip_loading_screen(skip: bool) - To skip loading screen and directly go to dashboard screen
+  6) set_speedometer_range(top_speed: int) - To set speedometer range
+  7) apply_accelerator() - To activate accelerator
+  8) release_accelerator() - To deactivate accelerator
+  9) set_speed(current_speed: int) - To update current speed
+  10) set_speedometer_resetter_state(state: bool) - To turn on or off speedometer internal reset function to 0 kmph after accelerator release
+  11) apply_break() - To activate break
+  12) release_break() - To deactivate break
+  13) sound_horn() - To activate horn
+  14) off_horn() - To deactivate horn
+  15) left_indicator_on_or_off() - On or off left indicator
+  16) right_indicator_on_or_off() - On or off right indicator
+  17) update_battery_power(current_battery_power: int) - To set current battery power level in percentage
+  18) charging_on() - To indicate charging is on
+  19) charging_off() - To indicate charging is off
     
 ## Output
 
