@@ -35,7 +35,6 @@ def CustomkeyboardEvent(event):
 
         # below is the demonstration of how to set speed, battery value and charging state 
         # press 'c' to watch changes
-        # Note: setting speed, battery value and charging state before dashboard popup is not possible
         if event.name == 'c':
             trigger_action.set_speed(150)
             trigger_action.update_battery_power(70)
