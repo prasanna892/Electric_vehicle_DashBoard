@@ -10,7 +10,7 @@ Hello coders, this is an electric vehicle dashboard design project with several 
   It is to demonstrate of how you can use the dashboard.py as a sub QWidget with your PyQt application and how to connect the vehical state to the dashboard.
 
 ## Features 
-### Basic features contains
+### Basic features
     1) This module provide a electric vehical dashboard dimension of 16:9 aspect ratio (default size 1280x720).
     2) You can able resize respect to 16:9 aspect ratio.
     3) Header with date-time display and break light display.
