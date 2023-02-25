@@ -1,6 +1,6 @@
 # Electric_vehicle_DashBoard
 
-Hello coders, this is a project of electric vehical dashboard design with several functionality using PyQt (Qt framework).
+Hello coders, this is an electric vehicle dashboard design project with several functionalities using PyQt (Qt framework).
 
 ## Description 
   I made this dashboard.py as a PyQt QWidget type, so you can embed this with your existing QMainWindow application by importing it or you can also use this as a stand-alone application for other purposes. At this point you have a question of how to do that? that's why I also provide a demo1.py and demo2.py file. 
