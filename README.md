@@ -68,6 +68,7 @@ https://user-images.githubusercontent.com/78413761/219974154-664373d3-62d0-4a67-
 ## Conclusion 
   If you found any bug or you want any feature kindly inform it.
   If you want any application like this fell free to contact me. the contact info given below.
+  If you like this project then do not forget to star the repo.
     
 ## Contact:
 
